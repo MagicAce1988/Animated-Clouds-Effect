@@ -127,7 +127,5 @@ animate();
 window.addEventListener('resize', () => {
   canvas.width = innerWidth;
   canvas.height = innerHeight;
-  for (let i = 0; i < particleArray.length; i++) {
-    particleArray[i].update();
-  }
+  init();
 });
