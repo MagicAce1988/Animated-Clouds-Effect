@@ -13,7 +13,7 @@ const colors = [
   `rgba(211, 211, 211, 0.8)`,
 ];
 
-const maxSize = 40;
+const maxSize = 10;
 const minSize = 0;
 const mouseRadius = 60;
 
