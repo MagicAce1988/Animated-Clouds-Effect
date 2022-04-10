@@ -123,3 +123,11 @@ function animate() {
 
 init();
 animate();
+
+window.onresize = () => {
+  canvas.width = innerWidth;
+  canvas.height = innerHeight;
+  for (let i = 0; i < particleArray.length; i++) {
+    particleArray[i].update();
+  }
+};
